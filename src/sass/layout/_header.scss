@@ -1,0 +1,23 @@
+@import '../foundation/functions';
+@import '../foundation/mixins';
+@import '../foundation/variables';
+
+
+.box{
+    @include center;
+    &1{
+        width: rem(200);
+        height: rem(200);
+        background-color: $red;
+    }
+    &2{
+        width: rem(200);
+        height: rem(200);
+        background-color: $blue;
+    }
+    &3{
+        width: rem(200);
+        height: rem(200);
+        background-color: $green;
+    }
+}

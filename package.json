@@ -6,12 +6,14 @@
     "build": "webpack",
     "start": "webpack server",
     "watch": "webpack --watch",
-    "sass-ver": "sass --version"
+    "sass-ver": "sass --version",
+    "dev": "concurrently \"npm run build\" \"npm run serve\""
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "concurrently": "^9.0.1",
     "css-loader": "^7.1.2",
     "mini-css-extract-plugin": "^2.9.1",
     "sass": "^1.79.4",

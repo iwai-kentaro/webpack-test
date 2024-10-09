@@ -1,31 +1,35 @@
-/*!*************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss ***!
-  \*************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/style.scss ***!
+  \**************************************************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 .box {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .box1 {
-  width: 200px;
-  height: 200px;
-  border-color: red;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: red;
 }
 .box2 {
-  width: 200px;
-  height: 200px;
-  border-color: blue;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: blue;
 }
 .box3 {
-  width: 200px;
-  height: 200px;
-  border-color: green;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: green;
 }
-/*!*******************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/_variables.scss ***!
-  \*******************************************************************************************************************/
-
-/*!***************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/_mixin.scss ***!
-  \***************************************************************************************************************/
-
 
 /*# sourceMappingURL=style.css.map*/
